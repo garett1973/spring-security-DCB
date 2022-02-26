@@ -13,7 +13,7 @@ import java.util.Date;
 @NoArgsConstructor
 public class VerificationToken {
 
-    private static final int EXPIRATION_TIME = 10; // expiratio time as 10 minutes
+    private static final int EXPIRATION_TIME = 10; // expiration time as 10 minutes
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
